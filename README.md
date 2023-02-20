@@ -2,11 +2,9 @@
 
 REST API service for a portfolio publication site. Written in Python using Django REST Framework.
 
----
 
 ## Set up
 
----
 
 ```
 $ source .venv/bin/activate
@@ -33,11 +31,7 @@ python manage.py runserver
 - create user via /api/user/register/
 - get access token via /api/user/token/
 
----
-
 ## Features
-
----
 
 - JWT authenticated
 - Admin panel /admin/
